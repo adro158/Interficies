@@ -38,21 +38,22 @@
             tbCerca1 = new TextBox();
             dataGridView1 = new DataGridView();
             btnCarregar1 = new Button();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(100, 12);
+            pictureBox1.Location = new Point(30, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(253, 140);
+            pictureBox1.Size = new Size(376, 243);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // btnGris1
             // 
-            btnGris1.Location = new Point(71, 168);
+            btnGris1.Location = new Point(132, 273);
             btnGris1.Name = "btnGris1";
             btnGris1.Size = new Size(75, 23);
             btnGris1.TabIndex = 1;
@@ -62,7 +63,7 @@
             // 
             // btnSuavitzat1
             // 
-            btnSuavitzat1.Location = new Point(71, 217);
+            btnSuavitzat1.Location = new Point(132, 312);
             btnSuavitzat1.Name = "btnSuavitzat1";
             btnSuavitzat1.Size = new Size(75, 23);
             btnSuavitzat1.TabIndex = 2;
@@ -71,16 +72,17 @@
             // 
             // btnSegmentacio1
             // 
-            btnSegmentacio1.Location = new Point(71, 267);
+            btnSegmentacio1.Location = new Point(213, 273);
             btnSegmentacio1.Name = "btnSegmentacio1";
             btnSegmentacio1.Size = new Size(75, 23);
             btnSegmentacio1.TabIndex = 3;
             btnSegmentacio1.Text = "Segmentacio";
             btnSegmentacio1.UseVisualStyleBackColor = true;
+            btnSegmentacio1.Click += btnSegmentacio1_Click;
             // 
             // btnContorn1
             // 
-            btnContorn1.Location = new Point(71, 317);
+            btnContorn1.Location = new Point(213, 312);
             btnContorn1.Name = "btnContorn1";
             btnContorn1.Size = new Size(75, 23);
             btnContorn1.TabIndex = 4;
@@ -90,7 +92,7 @@
             // 
             // btnAfegir1
             // 
-            btnAfegir1.Location = new Point(71, 364);
+            btnAfegir1.Location = new Point(132, 358);
             btnAfegir1.Name = "btnAfegir1";
             btnAfegir1.Size = new Size(75, 23);
             btnAfegir1.TabIndex = 5;
@@ -100,7 +102,7 @@
             // 
             // btnInforme1
             // 
-            btnInforme1.Location = new Point(71, 405);
+            btnInforme1.Location = new Point(683, 312);
             btnInforme1.Name = "btnInforme1";
             btnInforme1.Size = new Size(75, 23);
             btnInforme1.TabIndex = 6;
@@ -110,7 +112,7 @@
             // 
             // tbCerca1
             // 
-            tbCerca1.Location = new Point(270, 268);
+            tbCerca1.Location = new Point(520, 284);
             tbCerca1.Name = "tbCerca1";
             tbCerca1.Size = new Size(100, 23);
             tbCerca1.TabIndex = 7;
@@ -119,14 +121,14 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(481, 62);
+            dataGridView1.Location = new Point(454, 12);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(240, 150);
+            dataGridView1.Size = new Size(334, 243);
             dataGridView1.TabIndex = 8;
             // 
             // btnCarregar1
             // 
-            btnCarregar1.Location = new Point(208, 384);
+            btnCarregar1.Location = new Point(21, 273);
             btnCarregar1.Name = "btnCarregar1";
             btnCarregar1.Size = new Size(75, 23);
             btnCarregar1.TabIndex = 9;
@@ -134,11 +136,21 @@
             btnCarregar1.UseVisualStyleBackColor = true;
             btnCarregar1.Click += btnCarregar1_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(402, 312);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 10;
+            label1.Text = "label1";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(btnCarregar1);
             Controls.Add(dataGridView1);
             Controls.Add(tbCerca1);
@@ -169,5 +181,6 @@
         private TextBox tbCerca1;
         private DataGridView dataGridView1;
         private Button btnCarregar1;
+        private Label label1;
     }
 }

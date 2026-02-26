@@ -69,3 +69,4 @@ C:\Users\Adam\source\repos\Interficies\HobbyMania\HobbyMania\obj\x64\Debug\net8.
 C:\Users\Adam\source\repos\Interficies\HobbyMania\HobbyMania\obj\x64\Debug\net8.0-windows\HobbyMania.pdb
 C:\Users\Adam\source\repos\Interficies\HobbyMania\HobbyMania\obj\x64\Debug\net8.0-windows\HobbyMania.genruntimeconfig.cache
 C:\Users\Adam\source\repos\Interficies\HobbyMania\HobbyMania\obj\x64\Debug\net8.0-windows\ref\HobbyMania.dll
+C:\Users\Adam\source\repos\Interficies\HobbyMania\HobbyMania\obj\x64\Debug\net8.0-windows\HobbyMania.sourcelink.json

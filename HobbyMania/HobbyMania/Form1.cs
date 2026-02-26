@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 using Emgu.CV;
 using Emgu.CV.Util;
-using System.Drawing;
-using System.Linq;
 using PdfSharp.Pdf;
 using PdfSharp.Drawing;
-using System.Drawing;
+using System.Diagnostics;
 
 namespace HobbyMania
 {
@@ -19,6 +19,13 @@ namespace HobbyMania
         public Form1()
         {
             InitializeComponent();
+
+            // ACTIVAR EL PARCHE DE FUENTES (Obligatori per a PDFsharp 6.1)
+            if (PdfSharp.Fonts.GlobalFontSettings.FontResolver == null)
+            {
+                PdfSharp.Fonts.GlobalFontSettings.FontResolver = new MyFontResolver();
+            }
+
             _llistaPeces = new List<Peca>();
         }
 
@@ -26,14 +33,17 @@ namespace HobbyMania
         {
             if (_imatgeActual == null || _imatgeActual.IsEmpty)
             {
-                MessageBox.Show("No hi ha cap imatge carregada.");
+                MessageBox.Show("Primer has de carregar una imatge.");
                 return;
             }
 
+            // Pipeline: BGR -> Aïllar el Canal Blau (per un contrast perfecte amb grocs)
             Mat imatgeGris = new Mat();
-            CvInvoke.CvtColor(_imatgeActual, imatgeGris, Emgu.CV.CvEnum.ColorConversion.Bgr2Gray);
+            CvInvoke.ExtractChannel(_imatgeActual, imatgeGris, 0); // Canal 0 és el Blau
+
             _imatgeActual = imatgeGris;
             pictureBox1.Image = _imatgeActual.ToBitmap();
+            pictureBox1.Refresh();
         }
 
         private void btnSuavitzat1_Click(object sender, EventArgs e)
@@ -45,7 +55,7 @@ namespace HobbyMania
             }
 
             Mat imatgeSuavitzada = new Mat();
-            CvInvoke.GaussianBlur(_imatgeActual, imatgeSuavitzada, new System.Drawing.Size(5, 5), 0);
+            CvInvoke.GaussianBlur(_imatgeActual, imatgeSuavitzada, new Size(5, 5), 0);
             _imatgeActual = imatgeSuavitzada;
             pictureBox1.Image = _imatgeActual.ToBitmap();
         }
@@ -54,14 +64,28 @@ namespace HobbyMania
         {
             if (_imatgeActual == null || _imatgeActual.IsEmpty)
             {
-                MessageBox.Show("No hi ha cap imatge carregada.");
+                MessageBox.Show("Error: No hi ha cap imatge carregada.");
                 return;
             }
 
-            Mat imatgeSegmentada = new Mat();
-            CvInvoke.Threshold(_imatgeActual, imatgeSegmentada, 120, 255, Emgu.CV.CvEnum.ThresholdType.Binary);
-            _imatgeActual = imatgeSegmentada;
+            Mat tempGris = new Mat();
+            if (_imatgeActual.NumberOfChannels > 1)
+            {
+                CvInvoke.ExtractChannel(_imatgeActual, tempGris, 0);
+            }
+            else
+            {
+                _imatgeActual.CopyTo(tempGris);
+            }
+
+            Mat tempSegmentada = new Mat();
+            CvInvoke.Threshold(tempGris, tempSegmentada, 0, 255, Emgu.CV.CvEnum.ThresholdType.BinaryInv | Emgu.CV.CvEnum.ThresholdType.Otsu);
+
+            _imatgeActual = tempSegmentada;
+
+            if (pictureBox1.Image != null) pictureBox1.Image.Dispose();
             pictureBox1.Image = _imatgeActual.ToBitmap();
+            pictureBox1.Refresh();
         }
 
         private void btnContorn1_Click(object sender, EventArgs e)
@@ -71,6 +95,8 @@ namespace HobbyMania
                 MessageBox.Show("No hi ha cap imatge carregada.");
                 return;
             }
+
+            label1.Text = "";
 
             VectorOfVectorOfPoint contours = new VectorOfVectorOfPoint();
             Mat hierarchy = new Mat();
@@ -82,10 +108,13 @@ namespace HobbyMania
             for (int i = 0; i < contours.Size; i++)
             {
                 VectorOfPoint contour = contours[i];
-                VectorOfPoint aprox = new VectorOfPoint();
 
+                double area = CvInvoke.ContourArea(contour);
+                if (area < 500) continue;
+
+                VectorOfPoint aprox = new VectorOfPoint();
                 double perimetre = CvInvoke.ArcLength(contour, true);
-                CvInvoke.ApproxPolyDP(contour, aprox, 0.04 * perimetre, true);
+                CvInvoke.ApproxPolyDP(contour, aprox, 0.05 * perimetre, true);
 
                 int vertexs = aprox.Size;
                 string tipus = "Desconegut";
@@ -105,6 +134,8 @@ namespace HobbyMania
 
                 Rectangle rect = CvInvoke.BoundingRectangle(contour);
                 CvInvoke.Rectangle(imatgeColor, rect, new Emgu.CV.Structure.MCvScalar(0, 0, 255), 2);
+
+                label1.Text += $"Detectat: {tipus} ({vertexs} vert.)\n";
             }
 
             pictureBox1.Image = imatgeColor.ToBitmap();
@@ -118,7 +149,11 @@ namespace HobbyMania
                 return;
             }
 
-            _llistaPeces.Clear();
+            if (_imatgeActual.NumberOfChannels != 1)
+            {
+                MessageBox.Show("La imatge ha de ser binaritzada abans d'afegir peces.");
+                return;
+            }
 
             VectorOfVectorOfPoint contours = new VectorOfVectorOfPoint();
             Mat hierarchy = new Mat();
@@ -185,9 +220,9 @@ namespace HobbyMania
             XFont fontTitol = new XFont("Arial", 16, XFontStyleEx.Bold);
             XFont fontNormal = new XFont("Arial", 12, XFontStyleEx.Regular);
 
-            gfx.DrawString("Inventari de Peces Filtrades", fontTitol, XBrushes.Black, new XRect(0, 40, page.Width.Point, 40), XStringFormats.Center);
+            gfx.DrawString("Inventari de Peces Filtrades - Hobby Mania", fontTitol, XBrushes.Black, new XPoint(40, 60));
 
-            int yPosition = 100;
+            int yPosition = 120;
             int recompte = 0;
 
             foreach (DataGridViewRow row in dataGridView1.Rows)
@@ -195,19 +230,32 @@ namespace HobbyMania
                 if (!row.IsNewRow)
                 {
                     string tipus = row.Cells["Tipus"].Value?.ToString() ?? "Desconegut";
-                    string data = row.Cells["DataDeteccio"].Value?.ToString() ?? "Sense data";
 
-                    gfx.DrawString($"- Peça: {tipus} | Data: {data}", fontNormal, XBrushes.Black, new XPoint(50, yPosition));
+                    string dataStr = "Sense data";
+                    if (row.Cells["DataDeteccio"].Value is DateTime dt)
+                    {
+                        dataStr = dt.ToString("dd/MM/yyyy HH:mm");
+                    }
 
-                    yPosition += 20;
+                    gfx.DrawString($"- {tipus} (Detectat el: {dataStr})", fontNormal, XBrushes.Black, new XPoint(40, yPosition));
+
+                    yPosition += 30;
                     recompte++;
                 }
             }
 
-            gfx.DrawString($"Recompte total d'elements exportats: {recompte}", fontTitol, XBrushes.Black, new XPoint(50, yPosition + 30));
+            yPosition += 30;
+            gfx.DrawString($"Total elements filtrats: {recompte}", fontTitol, XBrushes.Black, new XPoint(40, yPosition));
 
-            document.Save("Resultats.pdf");
-            MessageBox.Show("L'informe s'ha generat correctament amb el nom 'Resultats.pdf'.");
+            string nomFitxer = "Resultats.pdf";
+            document.Save(nomFitxer);
+
+            ProcessStartInfo psi = new ProcessStartInfo
+            {
+                FileName = nomFitxer,
+                UseShellExecute = true
+            };
+            Process.Start(psi);
         }
 
         private void btnCarregar1_Click(object sender, EventArgs e)
@@ -217,10 +265,42 @@ namespace HobbyMania
 
             if (ofd.ShowDialog() == DialogResult.OK)
             {
-                _imatgeActual = CvInvoke.Imread(ofd.FileName);
-                pictureBox1.Image = _imatgeActual.ToBitmap();
-                pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+                try
+                {
+                    Bitmap imatgeWindows = new Bitmap(ofd.FileName);
+                    _imatgeActual = imatgeWindows.ToMat();
+
+                    pictureBox1.Image = _imatgeActual.ToBitmap();
+                    pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+                }
+                catch
+                {
+                    MessageBox.Show("Error: L'arxiu no és vàlid o està corrupte.");
+                }
             }
+        }
+    }
+    // Aquesta classe ajuda a PDFsharp a trobar la font Arial al teu ordinador
+    public class MyFontResolver : PdfSharp.Fonts.IFontResolver
+    {
+        public string DefaultFontName => "Arial";
+
+        public PdfSharp.Fonts.FontResolverInfo ResolveTypeface(string familyName, bool isBold, bool isItalic)
+        {
+            if (familyName.Equals("Arial", StringComparison.OrdinalIgnoreCase))
+            {
+                if (isBold) return new PdfSharp.Fonts.FontResolverInfo("Arial#b");
+                return new PdfSharp.Fonts.FontResolverInfo("Arial#");
+            }
+            return null;
+        }
+
+        public byte[] GetFont(string faceName)
+        {
+            // Busquem els fitxers .ttf reals de Windows
+            if (faceName == "Arial#") return System.IO.File.ReadAllBytes(@"C:\Windows\Fonts\arial.ttf");
+            if (faceName == "Arial#b") return System.IO.File.ReadAllBytes(@"C:\Windows\Fonts\arialbd.ttf");
+            return null;
         }
     }
 }
