@@ -1,60 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\",
+  "WorkspaceRootPath": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\hobbymaniamanager\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\hobbymaniamanager\\repositories\\customersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\repositories\\customersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\hobbymaniamanager\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\vib\\source\\repos\\hobbymaniamanager\\hobbymaniamanager\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\hobbymaniamanager\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|HobbyManiaManager||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\hobbymaniamanager\\repositories\\rentalsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\repositories\\rentalsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\hobbymaniamanager\\repositories\\moviesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\repositories\\moviesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\hobbymaniamanager\\resources\\tmdb_top_movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\resources\\tmdb_top_movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\hobbymaniamanager\\resources\\tmdb_top_movies_small.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\resources\\tmdb_top_movies_small.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\hobbymaniamanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\vib\\source\\repos\\hobbymaniamanager\\hobbymaniamanager\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\moviesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\moviesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\moviesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\moviesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\moviesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\moviesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\repositories\\moviesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\repositories\\moviesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\hobbymaniamanager\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,161 +46,143 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 13,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HobbyManiaManager",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\HobbyManiaManager.csproj",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\HobbyManiaManager.csproj",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\HobbyManiaManager.csproj",
-              "RelativeToolTip": "HobbyManiaManager\\HobbyManiaManager.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-07T18:59:23.851Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "tmdb_top_movies_small.json",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Resources\\tmdb_top_movies_small.json",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\Resources\\tmdb_top_movies_small.json",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Resources\\tmdb_top_movies_small.json",
-              "RelativeToolTip": "HobbyManiaManager\\Resources\\tmdb_top_movies_small.json",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-07T13:41:42.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "tmdb_top_movies.json",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Resources\\tmdb_top_movies.json",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\Resources\\tmdb_top_movies.json",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Resources\\tmdb_top_movies.json",
-              "RelativeToolTip": "HobbyManiaManager\\Resources\\tmdb_top_movies.json",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwBsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-07T13:09:02.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RentalsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Repositories\\RentalsRepository.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\Repositories\\RentalsRepository.cs",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Repositories\\RentalsRepository.cs",
-              "RelativeToolTip": "HobbyManiaManager\\Repositories\\RentalsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\Models\\Rental.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\Models\\Rental.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\Models\\Rental.cs",
+              "RelativeToolTip": "HobbyManiaManager\\Models\\Rental.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:24:55.839Z",
+              "WhenOpened": "2026-02-27T18:08:07.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Repositories\\CustomersRepository.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\Repositories\\CustomersRepository.cs",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Repositories\\CustomersRepository.cs",
-              "RelativeToolTip": "HobbyManiaManager\\Repositories\\CustomersRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAARAAAAAAAAAA==",
+              "Title": "CustomersForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\CustomersForm.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\CustomersForm.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\CustomersForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "HobbyManiaManager\\CustomersForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:18:35.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T18:07:23.081Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RentalService.cs",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Services\\RentalService.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\Services\\RentalService.cs",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Services\\RentalService.cs",
-              "RelativeToolTip": "HobbyManiaManager\\Services\\RentalService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "MoviesForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.Designer.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\MoviesForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.Designer.cs",
+              "RelativeToolTip": "HobbyManiaManager\\MoviesForm.Designer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:17:05.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Models\\Customer.cs",
-              "RelativeToolTip": "HobbyManiaManager\\Models\\Customer.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAArwCUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T07:59:19.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Rental.cs",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Models\\Rental.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\Models\\Rental.cs",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Models\\Rental.cs",
-              "RelativeToolTip": "HobbyManiaManager\\Models\\Rental.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAwCQAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T07:57:37.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MoviesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Repositories\\MoviesRepository.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\Repositories\\MoviesRepository.cs",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Repositories\\MoviesRepository.cs",
-              "RelativeToolTip": "HobbyManiaManager\\Repositories\\MoviesRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T07:05:17.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Program.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\Program.cs",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Program.cs",
-              "RelativeToolTip": "HobbyManiaManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T18:40:43.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\MainForm.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\MainForm.cs",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\MainForm.cs",
-              "RelativeToolTip": "HobbyManiaManager\\MainForm.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAjwCkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T18:35:53.327Z",
+              "WhenOpened": "2026-02-27T18:03:04.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "MoviesForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\MoviesForm.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "HobbyManiaManager\\MoviesForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:01:51.041Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MoviesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\Repositories\\MoviesRepository.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\Repositories\\MoviesRepository.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\Repositories\\MoviesRepository.cs",
+              "RelativeToolTip": "HobbyManiaManager\\Repositories\\MoviesRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:01:10.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MainForm.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MainForm.cs",
+              "RelativeToolTip": "HobbyManiaManager\\MainForm.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAASwEIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:58:15.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Models\\Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "HobbyManiaManager\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\Models\\Movie.cs",
               "RelativeToolTip": "HobbyManiaManager\\Models\\Movie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -227,15 +191,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MainForm.cs",
               "RelativeDocumentMoniker": "HobbyManiaManager\\MainForm.cs",
-              "ToolTip": "C:\\Users\\vib\\source\\repos\\HobbyManiaManager\\HobbyManiaManager\\MainForm.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MainForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "HobbyManiaManager\\MainForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T18:29:05.813Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoviesForm.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\MoviesForm.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs",
+              "RelativeToolTip": "HobbyManiaManager\\MoviesForm.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:02:37.302Z",
+              "EditorCaption": ""
             }
           ]
         }

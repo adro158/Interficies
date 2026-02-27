@@ -55,5 +55,17 @@ namespace HobbyManiaManager
             service.Rent(c, m2);
             service.FinishRental(c, m2, "El cliente deja a deber 200ptas de este alquiler");
         }
+
+        private void btnMovies_Click(object sender, EventArgs e)
+        {
+            MoviesForm moviesForm = new MoviesForm();
+            moviesForm.ShowDialog();
+        }
+
+        private void btnCustomers_Click(object sender, EventArgs e)
+        {
+            CustomersForm customersForm = new CustomersForm();
+            customersForm.ShowDialog();
+        }
     }
 }

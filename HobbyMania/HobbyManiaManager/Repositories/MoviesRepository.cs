@@ -32,5 +32,10 @@ namespace HobbyManiaManager
         }
 
         public int Count => movies.Count;
+
+        public List<Movie> GetAll()
+        {
+            return movies.Select(m => (Movie)m.Clone()).ToList();
+        }
     }
 }

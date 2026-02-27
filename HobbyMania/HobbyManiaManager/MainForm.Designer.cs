@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.labelMoviesCounter = new System.Windows.Forms.Label();
+            this.btnMovies = new System.Windows.Forms.Button();
+            this.btnCustomers = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelMoviesCounter
@@ -40,11 +42,33 @@
             this.labelMoviesCounter.TabIndex = 0;
             this.labelMoviesCounter.Text = "label1";
             // 
+            // btnMovies
+            // 
+            this.btnMovies.Location = new System.Drawing.Point(142, 176);
+            this.btnMovies.Name = "btnMovies";
+            this.btnMovies.Size = new System.Drawing.Size(128, 23);
+            this.btnMovies.TabIndex = 1;
+            this.btnMovies.Text = "Catalogo de Peliculas";
+            this.btnMovies.UseVisualStyleBackColor = true;
+            this.btnMovies.Click += new System.EventHandler(this.btnMovies_Click);
+            // 
+            // btnCustomers
+            // 
+            this.btnCustomers.Location = new System.Drawing.Point(142, 230);
+            this.btnCustomers.Name = "btnCustomers";
+            this.btnCustomers.Size = new System.Drawing.Size(128, 23);
+            this.btnCustomers.TabIndex = 2;
+            this.btnCustomers.Text = "Gestion de Clientes";
+            this.btnCustomers.UseVisualStyleBackColor = true;
+            this.btnCustomers.Click += new System.EventHandler(this.btnCustomers_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCustomers);
+            this.Controls.Add(this.btnMovies);
             this.Controls.Add(this.labelMoviesCounter);
             this.Name = "MainForm";
             this.Text = "Hobby Mania Manager";
@@ -57,6 +81,8 @@
         #endregion
 
         private System.Windows.Forms.Label labelMoviesCounter;
+        private System.Windows.Forms.Button btnMovies;
+        private System.Windows.Forms.Button btnCustomers;
     }
 }
 

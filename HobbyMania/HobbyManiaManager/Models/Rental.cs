@@ -45,5 +45,9 @@ namespace HobbyManiaManager.Models
 
             return false;
         }
+        public override int GetHashCode()
+        {
+            return MovieId.GetHashCode() ^ CustomerId.GetHashCode();
+        }
     }
 }
