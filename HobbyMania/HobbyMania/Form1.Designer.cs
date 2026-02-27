@@ -102,9 +102,9 @@
             // 
             // btnInforme1
             // 
-            btnInforme1.Location = new Point(683, 312);
+            btnInforme1.Location = new Point(658, 284);
             btnInforme1.Name = "btnInforme1";
-            btnInforme1.Size = new Size(75, 23);
+            btnInforme1.Size = new Size(112, 23);
             btnInforme1.TabIndex = 6;
             btnInforme1.Text = "Informe";
             btnInforme1.UseVisualStyleBackColor = true;
@@ -112,9 +112,9 @@
             // 
             // tbCerca1
             // 
-            tbCerca1.Location = new Point(520, 284);
+            tbCerca1.Location = new Point(132, 406);
             tbCerca1.Name = "tbCerca1";
-            tbCerca1.Size = new Size(100, 23);
+            tbCerca1.Size = new Size(156, 23);
             tbCerca1.TabIndex = 7;
             tbCerca1.TextChanged += tbCerca1_TextChanged;
             // 
@@ -139,7 +139,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(402, 312);
+            label1.Location = new Point(227, 362);
             label1.Name = "label1";
             label1.Size = new Size(38, 15);
             label1.TabIndex = 10;
