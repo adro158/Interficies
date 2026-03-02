@@ -39,33 +39,33 @@
             // dgvMovies
             // 
             this.dgvMovies.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMovies.Location = new System.Drawing.Point(152, 42);
+            this.dgvMovies.Location = new System.Drawing.Point(75, 12);
             this.dgvMovies.Name = "dgvMovies";
-            this.dgvMovies.Size = new System.Drawing.Size(240, 150);
+            this.dgvMovies.Size = new System.Drawing.Size(589, 239);
             this.dgvMovies.TabIndex = 0;
-            this.dgvMovies.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMovies_CellContentClick);
+            this.dgvMovies.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMovies_CellDoubleClick);
             // 
             // txtSearchTitle
             // 
-            this.txtSearchTitle.Location = new System.Drawing.Point(169, 235);
+            this.txtSearchTitle.Location = new System.Drawing.Point(75, 287);
             this.txtSearchTitle.Name = "txtSearchTitle";
-            this.txtSearchTitle.Size = new System.Drawing.Size(100, 20);
+            this.txtSearchTitle.Size = new System.Drawing.Size(120, 20);
             this.txtSearchTitle.TabIndex = 1;
             // 
             // nudMinScore
             // 
-            this.nudMinScore.Location = new System.Drawing.Point(366, 288);
+            this.nudMinScore.Location = new System.Drawing.Point(75, 322);
             this.nudMinScore.Name = "nudMinScore";
             this.nudMinScore.Size = new System.Drawing.Size(120, 20);
             this.nudMinScore.TabIndex = 2;
             // 
             // btnFilter
             // 
-            this.btnFilter.Location = new System.Drawing.Point(216, 319);
+            this.btnFilter.Location = new System.Drawing.Point(75, 367);
             this.btnFilter.Name = "btnFilter";
-            this.btnFilter.Size = new System.Drawing.Size(75, 23);
+            this.btnFilter.Size = new System.Drawing.Size(120, 23);
             this.btnFilter.TabIndex = 3;
-            this.btnFilter.Text = "button1";
+            this.btnFilter.Text = "Filtrar";
             this.btnFilter.UseVisualStyleBackColor = true;
             // 
             // MoviesForm

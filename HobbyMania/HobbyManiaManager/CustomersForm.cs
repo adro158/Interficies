@@ -76,5 +76,21 @@ namespace HobbyManiaManager
             dgvCustomers.DataSource = null;
             dgvCustomers.DataSource = customersRepo.GetAll();
         }
+
+        private void dgvCustomers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void txtPhone_TextChanged(object sender, EventArgs e)
+        {
+        }
     }
 }
