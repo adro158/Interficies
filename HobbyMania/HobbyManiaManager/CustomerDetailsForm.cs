@@ -51,10 +51,16 @@ namespace HobbyManiaManager
                 var selectedRental = (Rental)dgvActiveRentals.SelectedRows[0].DataBoundItem;
                 var movieToReturn = moviesRepo.GetById(selectedRental.MovieId);
 
-                rentalService.FinishRental(currentCustomer, movieToReturn, "Devuelto desde la interfaz");
+                using (var returnForm = new ReturnMovieForm())
+                {
+                    if (returnForm.ShowDialog() == DialogResult.OK)
+                    {
+                        rentalService.FinishRental(currentCustomer, movieToReturn, returnForm.Notes);
 
-                RefreshGrids();
-                MessageBox.Show("Película devuelta correctamente.");
+                        RefreshGrids();
+                        MessageBox.Show("Película devuelta correctamente.");
+                    }
+                }
             }
             else
             {

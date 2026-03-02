@@ -1,33 +1,37 @@
 ﻿using System;
 using System.Data;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using HobbyManiaManager.Models;
 using PdfSharp.Drawing;
-using PdfSharp.Pdf;
 using PdfSharp.Drawing.Layout;
+using PdfSharp.Pdf;
 
 namespace HobbyManiaManager
 {
     public partial class MoviesForm : Form
     {
         private readonly MoviesRepository moviesRepo;
+        private readonly RentalService rentalService = new RentalService();
 
         public MoviesForm()
         {
             InitializeComponent();
 
-            // AÑADE ESTA LÍNEA PARA ACTIVAR EL TRADUCTOR DE FUENTES
             if (PdfSharp.Fonts.GlobalFontSettings.FontResolver == null)
             {
                 PdfSharp.Fonts.GlobalFontSettings.FontResolver = new SimpleFontResolver();
             }
 
             moviesRepo = MoviesRepository.Instance;
+
+            // Conectamos eventos aquí dentro (el lugar correcto)
             this.Load += MoviesForm_Load;
             btnFilter.Click += btnFilter_Click;
             dgvMovies.CellDoubleClick += dgvMovies_CellDoubleClick;
+            btnRent.Click += btnRent_Click;
         }
 
         private void MoviesForm_Load(object sender, EventArgs e)
@@ -55,7 +59,22 @@ namespace HobbyManiaManager
             }
         }
 
-
+        private void btnRent_Click(object sender, EventArgs e)
+        {
+            if (dgvMovies.SelectedRows.Count > 0)
+            {
+                var movie = (Movie)dgvMovies.SelectedRows[0].DataBoundItem;
+                using (var selectForm = new SelectCustomerForm())
+                {
+                    if (selectForm.ShowDialog() == DialogResult.OK)
+                    {
+                        rentalService.Rent(selectForm.SelectedCustomer, movie, selectForm.Notes);
+                        MessageBox.Show("Lloguer realitzat amb èxit!");
+                    }
+                }
+            }
+            else { MessageBox.Show("Selecciona una pel·lícula primer."); }
+        }
 
         private void GenerarPdf(Movie movie)
         {
@@ -64,88 +83,32 @@ namespace HobbyManiaManager
                 PdfDocument doc = new PdfDocument();
                 PdfPage page = doc.AddPage();
                 XGraphics gfx = XGraphics.FromPdfPage(page);
-
-                // Asegúrate de usar XFontStyleEx.Bold y XFontStyleEx.Regular
                 XFont fontTitol = new XFont("Arial", 18, XFontStyleEx.Bold);
                 XFont fontNormal = new XFont("Arial", 12, XFontStyleEx.Regular);
 
                 gfx.DrawString($"Fitxa: {movie.Title}", fontTitol, XBrushes.Black, new XPoint(40, 40));
-                gfx.DrawString($"Puntuació: {movie.VoteAverage}", fontNormal, XBrushes.Black, new XPoint(40, 80));
-
                 XTextFormatter tf = new XTextFormatter(gfx);
-                XRect rect = new XRect(40, 120, page.Width - 80, page.Height - 160);
+                XRect rect = new XRect(40, 80, page.Width - 80, page.Height - 120);
                 tf.DrawString(movie.Overview ?? "Sense sinopsi", fontNormal, XBrushes.Black, rect);
 
-                string path = $"{movie.Id}.pdf";
+                string path = movie.Id + ".pdf";
                 doc.Save(path);
                 Process.Start(new ProcessStartInfo(path) { UseShellExecute = true });
             }
-            catch (Exception ex) { MessageBox.Show("Error al generar PDF: " + ex.Message); }
-        }
-
-        // Añade esta variable arriba en la clase
-        private readonly RentalService rentalService = new RentalService();
-
-        // En el constructor, añade el evento del nuevo botón
-        btnRent.Click += btnRent_Click;
-
-        // Añade este método al final de la clase MoviesForm
-        private void btnRent_Click(object sender, EventArgs e)
-        {
-            if (dgvMovies.SelectedRows.Count > 0)
-            {
-                // 1. Obtener la película seleccionada
-                var movie = (Movie)dgvMovies.SelectedRows[0].DataBoundItem;
-
-                // 2. Abrir el diálogo para elegir cliente y notas
-                using (var selectForm = new SelectCustomerForm())
-                {
-                    if (selectForm.ShowDialog() == DialogResult.OK)
-                    {
-                        try
-                        {
-                            [cite_start]// 3. Llamar al servicio para realizar el alquiler 
-                            rentalService.Rent(selectForm.SelectedCustomer, movie, selectForm.Notes);
-                            MessageBox.Show($"Alquiler realizado con éxito para {selectForm.SelectedCustomer.Name}");
-                        }
-                        catch (Exception ex)
-                        {
-                            MessageBox.Show("Error al alquilar: " + ex.Message);
-                        }
-                    }
-                }
-            }
-            else
-            {
-                MessageBox.Show("Selecciona una película de la lista primero.");
-            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
     }
-    // Esta clase ayuda a PDFsharp 6.1 a encontrar las fuentes en Windows
+
     public class SimpleFontResolver : PdfSharp.Fonts.IFontResolver
     {
         public byte[] GetFont(string faceName)
         {
-            using (var ms = new System.IO.MemoryStream())
-            {
-                // Buscamos la fuente Arial en la carpeta de Windows
-                string fontPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Fonts), "arial.ttf");
-                if (System.IO.File.Exists(fontPath))
-                {
-                    System.IO.File.OpenRead(fontPath).CopyTo(ms);
-                    return ms.ToArray();
-                }
-                return null;
-            }
+            string fontPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Fonts), "arial.ttf");
+            return File.Exists(fontPath) ? File.ReadAllBytes(fontPath) : null;
         }
-
         public PdfSharp.Fonts.FontResolverInfo ResolveTypeface(string familyName, bool isBold, bool isItalic)
         {
-            if (familyName.Equals("Arial", StringComparison.OrdinalIgnoreCase))
-            {
-                return new PdfSharp.Fonts.FontResolverInfo("Arial");
-            }
-            return null;
+            return familyName.Equals("Arial", StringComparison.OrdinalIgnoreCase) ? new PdfSharp.Fonts.FontResolverInfo("Arial") : null;
         }
     }
 }

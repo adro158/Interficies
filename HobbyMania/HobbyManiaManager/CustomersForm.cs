@@ -22,6 +22,7 @@ namespace HobbyManiaManager
         {
             RefreshGrid();
         }
+        
 
         private void btnAddCustomer_Click(object sender, EventArgs e)
         {
@@ -29,7 +30,7 @@ namespace HobbyManiaManager
                 string.IsNullOrWhiteSpace(txtEmail.Text) ||
                 string.IsNullOrWhiteSpace(txtPhone.Text))
             {
-                MessageBox.Show("Por favor, rellena todos los campos.");
+                MessageBox.Show("Tots els camps (Nom, Email, Telèfon) són obligatoris.", "Error de validació", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -40,6 +41,19 @@ namespace HobbyManiaManager
                 txtPhone.Text,
                 DateTime.Now
             );
+
+            CustomersRepository.Instance.Add(newCustomer);
+
+            txtName.Clear();
+            txtEmail.Clear();
+            txtPhone.Clear();
+
+            dgvCustomers.DataSource = null;
+            dgvCustomers.DataSource = CustomersRepository.Instance.GetAll();
+
+            MessageBox.Show("Client afegit amb èxit.");
+        
+
 
             try
             {

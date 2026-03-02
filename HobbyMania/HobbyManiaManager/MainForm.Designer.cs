@@ -31,6 +31,7 @@
             this.labelMoviesCounter = new System.Windows.Forms.Label();
             this.btnMovies = new System.Windows.Forms.Button();
             this.btnCustomers = new System.Windows.Forms.Button();
+            this.btnHelp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelMoviesCounter
@@ -62,11 +63,22 @@
             this.btnCustomers.UseVisualStyleBackColor = true;
             this.btnCustomers.Click += new System.EventHandler(this.btnCustomers_Click);
             // 
+            // btnHelp
+            // 
+            this.btnHelp.Location = new System.Drawing.Point(142, 290);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(75, 23);
+            this.btnHelp.TabIndex = 3;
+            this.btnHelp.Text = "Ajuda";
+            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.btnCustomers);
             this.Controls.Add(this.btnMovies);
             this.Controls.Add(this.labelMoviesCounter);
@@ -83,6 +95,7 @@
         private System.Windows.Forms.Label labelMoviesCounter;
         private System.Windows.Forms.Button btnMovies;
         private System.Windows.Forms.Button btnCustomers;
+        private System.Windows.Forms.Button btnHelp;
     }
 }
 

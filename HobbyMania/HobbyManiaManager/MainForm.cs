@@ -49,5 +49,12 @@ namespace HobbyManiaManager
             CustomersForm f = new CustomersForm();
             f.ShowDialog();
         }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            // Usamos el namespace HobbyManiaManager.Help si es necesario
+            HobbyManiaManager.Help.HelpForm f = new HobbyManiaManager.Help.HelpForm();
+            f.ShowDialog();
+        }
     }
 }
