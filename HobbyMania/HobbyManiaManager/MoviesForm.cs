@@ -55,6 +55,8 @@ namespace HobbyManiaManager
             }
         }
 
+
+
         private void GenerarPdf(Movie movie)
         {
             try
@@ -79,6 +81,44 @@ namespace HobbyManiaManager
                 Process.Start(new ProcessStartInfo(path) { UseShellExecute = true });
             }
             catch (Exception ex) { MessageBox.Show("Error al generar PDF: " + ex.Message); }
+        }
+
+        // Añade esta variable arriba en la clase
+        private readonly RentalService rentalService = new RentalService();
+
+        // En el constructor, añade el evento del nuevo botón
+        btnRent.Click += btnRent_Click;
+
+        // Añade este método al final de la clase MoviesForm
+        private void btnRent_Click(object sender, EventArgs e)
+        {
+            if (dgvMovies.SelectedRows.Count > 0)
+            {
+                // 1. Obtener la película seleccionada
+                var movie = (Movie)dgvMovies.SelectedRows[0].DataBoundItem;
+
+                // 2. Abrir el diálogo para elegir cliente y notas
+                using (var selectForm = new SelectCustomerForm())
+                {
+                    if (selectForm.ShowDialog() == DialogResult.OK)
+                    {
+                        try
+                        {
+                            [cite_start]// 3. Llamar al servicio para realizar el alquiler 
+                            rentalService.Rent(selectForm.SelectedCustomer, movie, selectForm.Notes);
+                            MessageBox.Show($"Alquiler realizado con éxito para {selectForm.SelectedCustomer.Name}");
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Error al alquilar: " + ex.Message);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Selecciona una película de la lista primero.");
+            }
         }
     }
     // Esta clase ayuda a PDFsharp 6.1 a encontrar las fuentes en Windows

@@ -32,6 +32,7 @@
             this.txtSearchTitle = new System.Windows.Forms.TextBox();
             this.nudMinScore = new System.Windows.Forms.NumericUpDown();
             this.btnFilter = new System.Windows.Forms.Button();
+            this.btnRent = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMovies)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMinScore)).BeginInit();
             this.SuspendLayout();
@@ -68,11 +69,22 @@
             this.btnFilter.Text = "Filtrar";
             this.btnFilter.UseVisualStyleBackColor = true;
             // 
+            // btnRent
+            // 
+            this.btnRent.Location = new System.Drawing.Point(318, 322);
+            this.btnRent.Name = "btnRent";
+            this.btnRent.Size = new System.Drawing.Size(75, 23);
+            this.btnRent.TabIndex = 4;
+            this.btnRent.Text = "Llogar Pelicula";
+            this.btnRent.UseVisualStyleBackColor = true;
+            this.btnRent.Click += new System.EventHandler(this.btnRent_Click);
+            // 
             // MoviesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRent);
             this.Controls.Add(this.btnFilter);
             this.Controls.Add(this.nudMinScore);
             this.Controls.Add(this.txtSearchTitle);
@@ -92,5 +104,6 @@
         private System.Windows.Forms.TextBox txtSearchTitle;
         private System.Windows.Forms.NumericUpDown nudMinScore;
         private System.Windows.Forms.Button btnFilter;
+        private System.Windows.Forms.Button btnRent;
     }
 }

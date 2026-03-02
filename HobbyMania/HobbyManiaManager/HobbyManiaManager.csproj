@@ -140,6 +140,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\Rental.cs" />
     <Compile Include="Repositories\RentalsRepository.cs" />
+    <Compile Include="SelectCustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectCustomerForm.Designer.cs">
+      <DependentUpon>SelectCustomerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Services\RentalService.cs" />
     <EmbeddedResource Include="CustomerDetailsForm.resx">
       <DependentUpon>CustomerDetailsForm.cs</DependentUpon>
@@ -162,6 +168,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SelectCustomerForm.resx">
+      <DependentUpon>SelectCustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -181,6 +190,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Help\manual.Designer.html" />
+    <Content Include="Help\manual.html">
+      <SubType>Form</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
