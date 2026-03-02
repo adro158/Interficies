@@ -54,6 +54,9 @@ namespace HobbyManiaManager
             var m2 = moviesRepository.GetById(240);
             service.Rent(c, m2);
             service.FinishRental(c, m2, "El cliente deja a deber 200ptas de este alquiler");
+
+            var m3 = moviesRepository.GetById(238);
+            service.Rent(c2, m3, "Alquiler activo para Paco");
         }
 
         private void btnMovies_Click(object sender, EventArgs e)

@@ -7,28 +7,32 @@
       "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\moviesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\hobbymaniamanager\\customerdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\customerdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\customerdetailsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\customerdetailsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\hobbymaniamanager\\moviesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\moviesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\moviesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\moviesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\moviesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\moviesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|c:\\users\\adam\\source\\repos\\interficies\\hobbymania\\hobbymaniamanager\\repositories\\moviesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\repositories\\moviesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\hobbymaniamanager\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B5D1C41-488F-4284-831F-D6B7806D7B0F}|HobbyManiaManager\\HobbyManiaManager.csproj|solutionrelative:hobbymaniamanager\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,92 +98,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MoviesForm.cs",
-              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\MoviesForm.cs",
-              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs",
-              "RelativeToolTip": "HobbyManiaManager\\MoviesForm.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T18:02:37.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MoviesForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.Designer.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\MoviesForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.Designer.cs",
-              "RelativeToolTip": "HobbyManiaManager\\MoviesForm.Designer.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T18:03:04.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MoviesForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\MoviesForm.cs",
-              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "HobbyManiaManager\\MoviesForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T18:01:51.041Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MoviesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\Repositories\\MoviesRepository.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\Repositories\\MoviesRepository.cs",
-              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\Repositories\\MoviesRepository.cs",
-              "RelativeToolTip": "HobbyManiaManager\\Repositories\\MoviesRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T18:01:10.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MainForm.cs",
               "RelativeDocumentMoniker": "HobbyManiaManager\\MainForm.cs",
               "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MainForm.cs",
               "RelativeToolTip": "HobbyManiaManager\\MainForm.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAASwEIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T17:58:15.389Z",
+              "WhenOpened": "2026-03-02T16:19:22.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "HobbyManiaManager\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\Models\\Movie.cs",
-              "RelativeToolTip": "HobbyManiaManager\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T18:34:46.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MainForm.cs",
               "RelativeDocumentMoniker": "HobbyManiaManager\\MainForm.cs",
               "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MainForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "HobbyManiaManager\\MainForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T18:29:05.813Z",
+              "WhenOpened": "2026-03-02T16:19:19.639Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerDetailsForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\CustomerDetailsForm.Designer.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\CustomerDetailsForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\CustomerDetailsForm.Designer.cs",
+              "RelativeToolTip": "HobbyManiaManager\\CustomerDetailsForm.Designer.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAApwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T16:15:43.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerDetailsForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\CustomerDetailsForm.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\CustomerDetailsForm.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\CustomerDetailsForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "HobbyManiaManager\\CustomerDetailsForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:09:59.844Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomersForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\CustomersForm.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\CustomersForm.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\CustomersForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "HobbyManiaManager\\CustomersForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:58:06.738Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomersForm.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\CustomersForm.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\CustomersForm.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\CustomersForm.cs",
+              "RelativeToolTip": "HobbyManiaManager\\CustomersForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAASwBEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:55:26.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MoviesForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\MoviesForm.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "HobbyManiaManager\\MoviesForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:52:15.953Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MoviesForm.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs",
+              "RelativeDocumentMoniker": "HobbyManiaManager\\MoviesForm.cs",
+              "ToolTip": "C:\\Users\\Adam\\source\\repos\\Interficies\\HobbyMania\\HobbyManiaManager\\MoviesForm.cs",
+              "RelativeToolTip": "HobbyManiaManager\\MoviesForm.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:02:37.302Z",
+              "EditorCaption": ""
             }
           ]
         }
