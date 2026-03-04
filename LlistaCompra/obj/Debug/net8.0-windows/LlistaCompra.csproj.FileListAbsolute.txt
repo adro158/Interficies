@@ -1,0 +1,15 @@
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\bin\Debug\net8.0-windows\LlistaCompra.exe
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\bin\Debug\net8.0-windows\LlistaCompra.deps.json
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\bin\Debug\net8.0-windows\LlistaCompra.runtimeconfig.json
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\bin\Debug\net8.0-windows\LlistaCompra.dll
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\bin\Debug\net8.0-windows\LlistaCompra.pdb
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\obj\Debug\net8.0-windows\LlistaCompra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\obj\Debug\net8.0-windows\LlistaCompra.AssemblyInfoInputs.cache
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\obj\Debug\net8.0-windows\LlistaCompra.AssemblyInfo.cs
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\obj\Debug\net8.0-windows\LlistaCompra.csproj.CoreCompileInputs.cache
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\obj\Debug\net8.0-windows\LlistaCompra.sourcelink.json
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\obj\Debug\net8.0-windows\LlistaCompra.dll
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\obj\Debug\net8.0-windows\refint\LlistaCompra.dll
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\obj\Debug\net8.0-windows\LlistaCompra.pdb
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\obj\Debug\net8.0-windows\LlistaCompra.genruntimeconfig.cache
+C:\Users\Adam\source\repos\Interficies\LlistaCompra\obj\Debug\net8.0-windows\ref\LlistaCompra.dll
