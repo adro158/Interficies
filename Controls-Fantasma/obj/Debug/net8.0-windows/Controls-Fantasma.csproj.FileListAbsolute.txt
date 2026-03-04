@@ -1,0 +1,17 @@
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\bin\Debug\net8.0-windows\Controls-Fantasma.exe
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\bin\Debug\net8.0-windows\Controls-Fantasma.deps.json
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\bin\Debug\net8.0-windows\Controls-Fantasma.runtimeconfig.json
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\bin\Debug\net8.0-windows\Controls-Fantasma.dll
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\bin\Debug\net8.0-windows\Controls-Fantasma.pdb
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\Controls_Fantasma.Form1.resources
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\Controls-Fantasma.csproj.GenerateResource.cache
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\Controls-Fantasma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\Controls-Fantasma.AssemblyInfoInputs.cache
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\Controls-Fantasma.AssemblyInfo.cs
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\Controls-Fantasma.csproj.CoreCompileInputs.cache
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\Controls-Fantasma.sourcelink.json
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\Controls-Fantasma.dll
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\refint\Controls-Fantasma.dll
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\Controls-Fantasma.pdb
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\Controls-Fantasma.genruntimeconfig.cache
+C:\Users\Adam\source\repos\Interficies\Controls-Fantasma\obj\Debug\net8.0-windows\ref\Controls-Fantasma.dll
