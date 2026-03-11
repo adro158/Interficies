@@ -1,0 +1,17 @@
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\bin\Debug\net8.0-windows\RA4 Pt4.1.exe
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\bin\Debug\net8.0-windows\RA4 Pt4.1.deps.json
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\bin\Debug\net8.0-windows\RA4 Pt4.1.runtimeconfig.json
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\bin\Debug\net8.0-windows\RA4 Pt4.1.dll
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\bin\Debug\net8.0-windows\RA4 Pt4.1.pdb
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\RA4_Pt4._1.Form1.resources
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\RA4 Pt4.1.csproj.GenerateResource.cache
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\RA4 Pt4.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\RA4 Pt4.1.AssemblyInfoInputs.cache
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\RA4 Pt4.1.AssemblyInfo.cs
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\RA4 Pt4.1.csproj.CoreCompileInputs.cache
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\RA4 Pt4.1.sourcelink.json
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\RA4 Pt4.1.dll
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\refint\RA4 Pt4.1.dll
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\RA4 Pt4.1.pdb
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\RA4 Pt4.1.genruntimeconfig.cache
+C:\Users\Adam\source\repos\Interficies\RA4 Pt4.1\obj\Debug\net8.0-windows\ref\RA4 Pt4.1.dll
